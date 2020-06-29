@@ -1,0 +1,21 @@
+Package: champs
+Title: Compute and display statistics from the CHAMPS database
+Version: 0.2.0
+Authors@R: 
+    person(given = "Ryan",
+           family = "Hafen",
+           role = c("aut", "cre"),
+           email = "rhafen@gmail.com")
+Description: Provides utilities to compute several statistics of interest from L3 tables from the CHAMPS study data, as well as the ability to output these statistics in various formats such as PowerPoint slides, HTML tables, and plots.
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.2)
+Imports: dplyr, tidyr, forcats, stats, tidyselect, htmlTable, tibble,
+        ggplot2, cowplot, officer, magrittr, rlang, formattable,
+        kableExtra, ggfittext, readr, stringr
+RoxygenNote: 7.0.2
+NeedsCompilation: no
+Packaged: 2020-05-15 07:38:15 UTC; hafen
+Author: Ryan Hafen [aut, cre]
+Maintainer: Ryan Hafen <rhafen@gmail.com>
